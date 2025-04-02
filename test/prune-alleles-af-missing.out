@@ -1,0 +1,2 @@
+Error: --min-af/--max-af require pre-filled INFO/AF, use bcftools +fill-tags :)
+FAILED

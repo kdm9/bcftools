@@ -1,0 +1,10 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=3,length=249250621>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	A	B	C
+3	278	.	G	T	.	PASS	AN=6;AC=1	GT:AD	0|1:10,10	0|0:10,10	0/0:10,10
+3	279	.	G	T,A	.	PASS	AN=6;AC=2,1	GT:AD	0|1:10,10,0	0|2:10,0,10	0/1:10,10,0
